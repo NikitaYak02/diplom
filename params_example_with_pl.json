@@ -1,0 +1,26 @@
+{
+    "batch_size_train": 70,
+    "batch_size_valid": 368,
+    "lr": 4e-5,
+    "exprement_path": "/home/n.yakovlev/my_best_program/diplom_8sem/experiments_for_results/with_PL_2",
+    "path_to_starting_checkpoint": "/home/n.yakovlev/conv_autoencoder_512neuron.pth",
+    "using_checkpoint": false,
+    "use_all_data": false,
+
+    "patch_size": 224,
+    "layer": 2,
+    "scheduler_param": 0.96,
+    "pretrain": true,
+    "device": 3,
+
+    "is_efficientnet": 1,
+    "nn_name": "efficientnet-b4",
+    "iter_per_epoch": 40,
+    "epoch_for_start_pl": 5,
+    "rand_aug_strange": 10,
+    "rand_aug_max_strange": 31,
+    "n_ops": 3,
+    "use_my_rand_aug": true,
+    
+    "path_to_datasets": "/home/n.yakovlev/datasets/symblink/WSS2/train_valid_5"
+}
